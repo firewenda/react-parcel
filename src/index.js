@@ -5,6 +5,18 @@ import './index.css';
 
 import HelloMessage from './test/test';
 
+const pages = {
+    about: import('./pages/about'),
+    blog: import('./pages/blog')
+};
+
+function renderPage(name){
+    // 延迟加载请求页面。
+    return pages[name].then(function(page){
+        return page;
+    })
+}
+
 class CalcMessage extends React.Component {
     constructor(props){
         super(props);
