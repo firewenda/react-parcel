@@ -1,0 +1,17 @@
+.test{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    background: url('../images/taoqi.jpg') no-repeat;
+    position: relative;
+}
+.test p{
+    width: 100%;
+    background: #fff;
+    color: #f60;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

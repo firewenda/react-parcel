@@ -1,0 +1,11 @@
+@import './test/test.css';
+/* @import './test/test.scss'; */
+
+.wrap{
+    width: 1190px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.wrap input{
+    margin-right: 20px;
+}
